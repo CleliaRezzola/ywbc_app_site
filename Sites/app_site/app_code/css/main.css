@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Italianno|Crimson+Text);
+/* line 1, ../scss/_headings.scss */
+* {
+  font-family: Crimson Text;
+  font-size: 18px;
+}
+
+/* line 6, ../scss/_headings.scss */
+h1 {
+  font-family: Italianno;
+  font-size: 50px;
+  color: #4e0125;
+}
+
+/* line 12, ../scss/_headings.scss */
+h2 {
+  font-family: Italianno;
+  font-size: 40px;
+  color: #4e0125;
+}
+
+/* line 18, ../scss/_headings.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 22, ../scss/_headings.scss */
+.logo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 27, ../scss/_headings.scss */
+.img_footer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 32, ../scss/_headings.scss */
+.choice {
+  border: 1px solid #4e0125;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 40, ../scss/_headings.scss */
+.icon_search_box {
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+/* line 45, ../scss/_headings.scss */
+.yellow_line {
+  border-bottom: 3px solid #ff9d06;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 4, ../scss/_content.scss */
+.content_serach,
+.content_cellar,
+.content_reviews,
+.content_nearby {
+  height: 700px;
+  overflow: scroll;
+}
+
+/* line 9, ../scss/_content.scss */
+.bottle_img {
+  border: 1px solid black;
+  height: 200px;
+}
+
+/* line 14, ../scss/_content.scss */
+.display_search {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 7, ../scss/main.scss */
+body {
+  margin: 0 auto;
+  background-image: url("../images/background_image.png");
+}
+
+/* line 12, ../scss/main.scss */
+.container {
+  max-width: 960px;
+}
+
+/* line 16, ../scss/main.scss */
+.clearfix:after, article:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+
+/* line 25, ../scss/main.scss */
+.clearfix, article {
+  display: inline-block;
+}
+
+/* line 29, ../scss/main.scss */
+* html .clearfix, * html article {
+  height: 1%;
+}
+
+/* line 33, ../scss/main.scss */
+.clearfix, article {
+  display: block;
+}

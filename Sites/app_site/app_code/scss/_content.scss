@@ -1,0 +1,17 @@
+.content_serach,
+.content_cellar,
+.content_reviews,
+.content_nearby {
+	height: 700px;
+	overflow: scroll;
+}
+
+.bottle_img {
+	border: 1px solid $black;
+	height: 200px;
+}
+
+.display_search {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
