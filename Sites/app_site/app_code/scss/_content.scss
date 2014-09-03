@@ -1,17 +1,40 @@
-.content_serach,
-.content_cellar,
-.content_reviews,
-.content_nearby {
-	height: 700px;
-	overflow: scroll;
-}
-
 .bottle_img {
 	border: 1px solid $black;
-	height: 200px;
+	margin-top: 30px;
+	height: 100px;
+}
+
+select {
+	// font-family: Italianno;
+	font-size: 20px;
+	text-align: center;
+	color: $grape;
+	background: transparent;
 }
 
 .display_search {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
+}
+
+.display_price,
+.display_score {
+	float: right;
+	margin-right: 30px;
+	margin-top: -50px;
+	color: $yellow;
+	font-size: 30px;
+}
+
+.content_search,
+.content_reviews,
+.content_nearby,
+.content_cellar {
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.footer {
+	position: fixed;
+	margin-top: -150px;
 }
