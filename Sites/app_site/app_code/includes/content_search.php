@@ -1,6 +1,18 @@
 <div class="container">
 
 	<div class="content_search">
+
+		<form class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+                <input class="search_bar" type="text" placeholder="Search..." required>
+			</div>
+			<div class="col-xs-2 search_bar_button">
+                <a href="javascript:void()" onclick="document.getElementById('myform').submit();">
+				<img src="images/icon_search_box" class="icon_search_box img-responsive" alt="Responsive image">
+				</a>
+			</div>
+		</form>
+
 		<div class="row display_search">
 			<div class="col-xs-3 col-xs-offset-1 bottle_img"></div>
 			<div class="col-xs-8"><h2>Wine Abc</h2>

@@ -10,12 +10,11 @@ echo "<html>";
 		require_once('includes/header.php');
 
 		if (!isset ($_GET["page"])) {
-
+      
   			require_once('includes/home.php');
   		}
 
   		if (isset($_GET["page"])) {
-
 
   			$content_file = "includes/content_".$_GET["page"].".php";
 
@@ -30,6 +29,5 @@ echo "<html>";
  		}
 
 	echo "</body>";
-
 echo "</html>";
 ?>

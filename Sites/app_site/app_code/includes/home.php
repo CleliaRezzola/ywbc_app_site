@@ -6,10 +6,10 @@
 		</div>
 	</div>
 
-	<form name="myform" method="post" action=" ">
+	<form name="myform" method="post" action="">
 		<div class="row choice">
-			<select class="col-xs-8 col-xs-offset-2 option_type">
-				<option value=""disabled selected>Type</option>
+			<select id="type" class="col-xs-8 col-xs-offset-2 option_type">
+				<option value="" disabled selected>Type</option>
 			<!-- Red Wine -->
 				<optgroup label="Red Wine">
 					<option value="merlot">Merlot</option>
@@ -54,8 +54,8 @@
 			</select>
 
 			<!-- <div class="col-xs-8 col-xs-offset-2 select_price"><h2>Price &gt;</h2></div> -->
-			<select class="col-xs-8 col-xs-offset-2 option_price">
-				<option value=""disabled selected>Price</option>
+			<select id="price" class="col-xs-8 col-xs-offset-2 option_price">
+				<option value="" disabled selected>Price</option>
 				<option value="under_$10">under $10</option>
 				<option value="$10-$20">$10-$20</option>
 				<option value="$20-$30">$20-$30</option>
@@ -63,8 +63,8 @@
 				<option value="$40_or_more">$40 or more</option>
 			</select>
 
-			<select class="col-xs-8 col-xs-offset-2 option_country">
-				<option value=""disabled selected>Country</option>
+			<select id="country" class="col-xs-8 col-xs-offset-2 option_country">
+				<option value="" disabled selected>Country</option>
 				<option value="argentina">Argentina</option>
 				<option value="australia">Australia</option>
 				<option value="brazil">Brazil</option>
@@ -80,8 +80,8 @@
 				<option value="spain">Spain</option>
 			</select>
 
-			<select class="col-xs-8 col-xs-offset-2 option_pairings">
-				<option value=""disabled selected>Pairings</option>
+			<select id="pairings" class="col-xs-8 col-xs-offset-2 option_pairings">
+				<option value="" disabled selected>Pairings</option>
 			<!-- Beef -->
 				<optgroup label="Beef">
 					<option value="simple_roasted_grill">Simple/Roasted/Grill</option>

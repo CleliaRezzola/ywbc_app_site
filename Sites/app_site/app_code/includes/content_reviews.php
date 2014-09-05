@@ -1,12 +1,16 @@
 <div class="container">
 
 	<div class="content_reviews">
-		<div class="row">
-			<form class="col-xs-9 col-xs-offset-2" action=" ">
-	  		    <input type="search" name="search">
-	  		    <input type="submit" name="search">
-			</form>
+		<form class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+                <input class="search_bar" type="text" placeholder="Search..." required>
 			</div>
+			<div class="col-xs-2 search_bar_button">
+                <a href="javascript:void()" onclick="document.getElementById('myform').submit();">
+				<img src="images/icon_search_box" class="icon_search_box img-responsive" alt="Responsive image">
+				</a>
+			</div>
+		</form>
 
 		<div class="row">
 			<div class="col-xs-9 col-xs-offset-3"><h1>Top Wanted</h1></div>

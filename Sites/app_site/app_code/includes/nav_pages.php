@@ -8,11 +8,9 @@
 	  $pages ['nearby'] = "Nearby";
 
 	function createNavFromArray($pages){
-	 
-		// Start creating a string of html for our nav:
+
 		$nav = "\n<nav>";
 		 
-		// Create our LIs:
 		foreach ($pages as $slug => $pageName){
 
 	  	$class = "inactive";
@@ -27,8 +25,7 @@
 		    <a href='index.php?page=".$slug."'>"
 		    .$pageName."</a></h2></li>";
 		}
-		 
-		// Finish creating the string of html for our nav:
+
 		$nav .= "\n</nav>";
 		 
 		return $nav;
